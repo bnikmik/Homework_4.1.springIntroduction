@@ -23,7 +23,6 @@ public class Main {
                 new ClassPathXmlApplicationContext("applicationContextDISetter.xml");
 
         AbleToDrive person2 = context3.getBean("customPerson", AbleToDrive.class);
-
         person2.goByCar();
         context3.close();
     }
